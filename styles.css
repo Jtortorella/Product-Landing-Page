@@ -1,0 +1,163 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  font-family: calibri;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  background-color: white;
+  word-spacing: .2rem;
+}
+body {
+  width: 97%;
+  margin: 0 auto;
+  background-color: #E1CDB4
+}
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  background-color: white;
+  height: 20vh;
+}
+.nav-link {
+  padding: 1% 2% 1% 2%;
+  display: block;
+  text-decoration: none;
+  color: #61584E;
+  background-color: #EDD8BE;
+}
+.nav-link:hover {
+  margin: unset;
+  border: unset;
+  border: 3px dotted black;
+  color: #EDD8BE;
+  background-color: #61584E;
+}
+#header-img {
+  max-width: 100%;
+  max-height: 50%;
+}
+#video-container {
+  padding-top: 20vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  max-height: 600px;
+  background-color: #CAE0DC;
+}
+#video {
+  margin-top: 2%;
+  width: 80%;
+  height: 60%;
+  border: 1px dotted black;
+}
+#about {
+  padding-top: 20vh;
+  margin: 2%;
+}
+#get-connected {
+  padding-top: 20vh%;
+}
+#product-selection {
+  padding-top: 2%;
+  text-align: center;
+}
+#product-selection ul {
+  padding-top: 2%;
+  margin: 2%; 
+}
+#product-selection ul li {
+  border: 1px dotted black;
+  padding-top: 5%;
+  background-color: white;
+  list-style-type: none;
+  display: block;
+  }
+  #product-selection ul li img {
+  border-radius: 5%;
+  }
+#product-selection ul li:hover {
+  background-color: black;
+  color: lightblue;
+}
+ #product-selection ul li img:hover {
+    filter: blur(1px);
+  }
+#get-connected {
+  text-align: center;
+  padding: 5% 0 5% 0;
+  background-color: #9DA7E0;
+}
+#get-connected #email {
+  width: 40%;
+  max-width: 300px;
+}
+#get-connected label {
+  display: block;
+  margin: 1%;
+}
+@media screen and (min-width: 390px) {
+.nav-link {
+  display: inline;
+}
+#header {
+  height: 17%;
+}
+#video-container {
+  padding-top: 35%
+}
+#about {
+  padding-top: 35%;
+}
+#get-connected {
+  padding-top: 35%;
+}
+}
+@media screen and (min-width: 650px) {
+#nav-bar {
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+}
+#header {
+  height: 15%;
+}
+#video-container {
+  padding-top: 20%
+}
+#about {
+  padding-top: 20%;
+}
+#get-connected {
+  padding-top: 20%;
+}
+#header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+}
+@media screen and (min-width: 800px)
+{
+  #video-container, #about, #get-connected {
+  padding: unset;
+  padding-top: 15%
+
+}
+  #product-selection ul {
+    display: flex;
+  justify-content: space-around;
+}
+  #product-selection ul li {
+  border: 1px dotted black;
+  padding-top: 5%;
+  background-color: white;
+  list-style-type: none;
+  display: block;
+  width: 40%;
+}
+}

@@ -167,9 +167,11 @@ justify-content: space-evenly;
   #video-container, #about, #get-connected {
   padding: unset;
   padding-top: 15%
-
-
 }
+  #video-container {
+    height: 800px;
+  }
+  
 
 
 
